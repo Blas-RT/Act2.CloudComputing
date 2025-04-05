@@ -1,0 +1,19 @@
+[project]
+name = "act2-cloudcomputing"
+version = "0.1.0"
+description = "Actividad de computo en la nube semana 2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "kagglehub",
+    "pandas",
+    "scikit-learn",
+    "azureml",
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "azureml-sdk>=1.59.0",
+    "setuptools>=78.1.0",
+    "azureml-core",
+    "azureml-dataprep>=5.1.6",
+]
